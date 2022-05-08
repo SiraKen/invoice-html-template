@@ -1,0 +1,64 @@
+body {
+  margin: 1em 0 1em 0;
+}
+.invoice {
+  background: #fff;
+  width: 827px;
+  height: 1169px;
+  margin: 0 auto;
+  padding: 30px 38px;
+  border: solid 1px #ccc;
+}
+.date-number {
+  text-align: right;
+  line-height: 1.8;
+  margin-bottom: 1em;
+}
+.total-sum {
+  margin-top: 2em;
+  display: inline-block;
+  border-bottom: solid 1px #111;
+  font-weight: bold;
+}
+.price-view {
+  margin-right: 150px;
+}
+
+// 金額テーブル
+.table {
+  border: solid 2px #000 !important;
+  margin-top: 24px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: bold;
+
+  thead th {
+    border: solid 1px #000;
+    text-align: center;
+    background: #ccc;
+  }
+
+  tbody td {
+    border: solid 2px #000;
+  }
+
+  th,
+  td {
+    padding: 0.3em;
+  }
+}
+
+// 自社データ
+.company-logo {
+  margin: 0;
+  position: relative;
+  right: 5px;
+}
+.company-stamp {
+  margin: 0;
+  position: relative;
+  width: 118px;
+  float: right;
+  right: 0px;
+  z-index: 100;
+}

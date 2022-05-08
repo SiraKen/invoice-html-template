@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Invoice</title>
+  </head>
+  <body class="bg-light">
+    <div class="invoice">
+      <div class="date-number">
+        2020年10月01日<br />
+        請求番号: 20201001‑001
+      </div>
+      <p class="fw-bold text-center my-5" style="font-size: 32.4px">請求書</p>
+      <div class="d-flex justify-content-between">
+        <div class="w-50" style="line-height: 2">
+          <span style="font-size: 18px; border-bottom: solid 1px #000"
+            >〇〇商事株式会社 様</span
+          ><br />
+          下記のとおりご請求申し上げます。
+          <p class="total-sum">
+            <span class="price-view">ご請求金額</span>¥ 0 -
+          </p>
+        </div>
+        <div style="width: 50%; line-height: 1.2">
+          <img src="logo.svg" width="220" class="company-logo" /><br />
+          <img src="stamp.png" width="200" class="company-stamp" />
+          〇〇〇〇株式会社<br /><br />
+          〒000-0000<br />
+          〇〇県〇〇市<br />
+          TEL:000-0000-0000
+        </div>
+      </div>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>品番・品名</th>
+            <th>数量</th>
+            <th>単価</th>
+            <th>金額</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>hoge</td>
+            <td>1</td>
+            <td>100</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <td>hoge</td>
+            <td>1</td>
+            <td>100</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <td>hoge</td>
+            <td>1</td>
+            <td>100</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <td>hoge</td>
+            <td>1</td>
+            <td>100</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <td>hoge</td>
+            <td>1</td>
+            <td>100</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <td>hoge</td>
+            <td>1</td>
+            <td>100</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <td>hoge</td>
+            <td>1</td>
+            <td>100</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <td rowspan="2" class="invisible"></td>
+            <td colspan="2">小計</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <td colspan="2">合計</td>
+            <td>100</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>
